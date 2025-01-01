@@ -14,3 +14,20 @@ I would gather random interesting links and papers.
 * A Critique of Modern SQL And A Proposal Towards A Simple and Expressive Query Language  
   [link](https://www.cidrdb.org/cidr2024/papers/p48-neumann.pdf)  
   The first contribution of the paper is a comprehensive critique of modern SQL, informed by an analysis of real-world SQL queries. This provides the motivation for our second contribution: the Simple ANd Expressive Query Language (SaneQL). SaneQL features a straightforward and consistent syntax, which improves its learnability and ease of implementation. Additionally, it provides extensibility, with the added ability to define new operators that integrate seamlessly with the existing built-in ones. Unlike most data frame APIs and NoSQL query languages, SaneQL fully embraces the core principles behind SQL, especially multiset semantics. We propose that adopting SaneQL’s approach can ensure the enduring success of relational database technology, offering the power of SQL’s underlying concepts through a more accessible and flexible language.  
+
+* Adaptive Execution of Compiled Queries  
+  [link](https://db.in.tum.de/~leis/papers/adaptiveexecution.pdf)
+  —Compiling queries to machine code is a very efficient way for executing queries. One often overlooked problem with compilation is the time it takes to generate machine code. Even with fast compilation frameworks like LLVM, generating machine code for complex queries often takes hundreds of milliseconds. Such durations can be a major disadvantage for workloads that execute many complex, but quick queries. To solve this problem, we propose an adaptive execution framework, which dynamically switches from interpretation to compilation. We also propose a fast bytecode interpreter for LLVM, which can execute queries without costly translation to machine code and dramatically reduces the query latency. Adaptive execution is fine-grained, and can execute code paths of the same query using different execution modes. Our evaluation shows that this approach achieves optimal performance in a wide variety of settings—low latency for smal.
+
+  * The Technology behind CedarDB  
+    [link](https://cedardb.com/docs/technology/)
+
+  *Introducing DBRX: A New State-of-the-Art Open LLM  
+    [link](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm)
+
+  * The Part of PostgreSQL We Hate the Most
+     [link](https://www.cs.cmu.edu/~pavlo/blog/2023/04/the-part-of-postgresql-we-hate-the-most.html)
+
+  * Databases in 2024: A Year in Review
+    [link](https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html)
+      

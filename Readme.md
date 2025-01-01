@@ -12,5 +12,5 @@ I would gather random interesting links and papers.
   Very interesting to read.
   
 * A Critique of Modern SQL And A Proposal Towards A Simple and Expressive Query Language  
-  [link](https://www.cidrdb.org/cidr2024/papers/p48-neumann.pdf)
+  [link](https://www.cidrdb.org/cidr2024/papers/p48-neumann.pdf)  
   The first contribution of the paper is a comprehensive critique of modern SQL, informed by an analysis of real-world SQL queries. This provides the motivation for our second contribution: the Simple ANd Expressive Query Language (SaneQL). SaneQL features a straightforward and consistent syntax, which improves its learnability and ease of implementation. Additionally, it provides extensibility, with the added ability to define new operators that integrate seamlessly with the existing built-in ones. Unlike most data frame APIs and NoSQL query languages, SaneQL fully embraces the core principles behind SQL, especially multiset semantics. We propose that adopting SaneQL’s approach can ensure the enduring success of relational database technology, offering the power of SQL’s underlying concepts through a more accessible and flexible language.  

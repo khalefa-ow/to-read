@@ -34,3 +34,9 @@ I would gather random interesting links and papers.
 * mooncake  
   [link](https://mooncake.dev/blog/how-we-built-pgmooncake)  
   [link](https://github.com/Mooncake-Labs/pg_mooncake)  
+
+fifty shades of concurrency
+It does not need to be black or white
+can this would be done with LLM or code generations
+https://www.youtube.com/watch?v=Mc3tTRkjCvE&ab_channel=StrangeLoopConference 
+https://www.vldb.org/pvldb/vol16/p856-power.pdf
